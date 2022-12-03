@@ -1,31 +1,31 @@
 // Questions will be asked
 const Questions = [{
 		id: 0,
-		q: "What is capital of India?",
-		a: [{ text: "gandhinagar", isCorrect: false },
-			{ text: "Surat", isCorrect: false },
-			{ text: "Delhi", isCorrect: true },
-			{ text: "mumbai", isCorrect: false }
+		q: "How many bourough NYC has?",
+		a: [{ text: "3", isCorrect: false },
+			{ text: "9", isCorrect: false },
+			{ text: "5", isCorrect: true },
+			{ text: "7", isCorrect: false }
 		]
 
 	},
 	{
 		id: 1,
-		q: "What is the capital of Thailand?",
-		a: [{ text: "Lampang", isCorrect: false, isSelected: false },
-			{ text: "phuket", isCorrect: false },
-			{ text: "Ayutthaya", isCorrect: false },
-			{ text: "Bangkok", isCorrect: true }
+		q: "Where is the White House located?",
+		a: [{ text: "State of Whashington", isCorrect: false, isSelected: false },
+			{ text: "Maryland", isCorrect: false },
+			{ text: "Virginia", isCorrect: false },
+			{ text: "Whashington DC", isCorrect: true }
 		]
 
 	},
 	{
 		id: 2,
-		q: "What is the capital of Gujarat",
-		a: [{ text: "surat", isCorrect: false },
-			{ text: "vadodara", isCorrect: false },
-			{ text: "gandhinagar", isCorrect: true },
-			{ text: "rajkot", isCorrect: false }
+		q: "Who's the mayor of NYC",
+		a: [{ text: "De Blasio", isCorrect: false },
+			{ text: "AOC", isCorrect: false },
+			{ text: "Adams", isCorrect: true },
+			{ text: "Schumer", isCorrect: false }
 		]
 
 	}
